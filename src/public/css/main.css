@@ -1,0 +1,45 @@
+body{
+    
+    height: 100vh;
+    overflow: hidden;
+    background-color: #e2e2e2;
+    animation: mymove 5s infinite;
+    
+
+
+}
+nav {
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.46);
+}
+nav h1 {
+    margin: 0px 0px 0px 10px;
+}
+#contentWrap {
+    display: none;
+}
+
+.container {
+    margin-top: 18px;
+}
+#nickWrap {
+    height: auto;
+}
+.card {
+    height: 85vh;
+    box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.46);
+    -moz-box-shadow: 0px 0px 13px 0px rgba(0,0,0,0.46);
+}
+#chat {
+    height: 250px;
+    overflow-y: auto;
+}
+.error {
+    color: red;
+}
+.whisper {
+    color: gray;
+    font-style: italic;
+}
